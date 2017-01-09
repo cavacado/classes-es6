@@ -194,7 +194,7 @@ looking at the future of javascript; as the language matures further; more peopl
 
 the only reason why the class syntax is introduced is so as to ease these traditional CS graduates into the language itself.
 
-therefore, this looks to be the trend to follow; so our team would conclude that this would be the 80% in the future.
+therefore, this looks to be the trend to follow; so our team would conclude that this would be the 20% in the future.
 
 ##acknowledgments:
 
