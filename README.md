@@ -1,6 +1,8 @@
 # classes-es6
 090117
 
+done by : sharona , ben , zhao loong
+
 # what to do:
   * What is the feature
   * How do we use it?
