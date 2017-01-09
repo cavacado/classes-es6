@@ -21,22 +21,22 @@ The inheritance is made simpler using the 'extends' keyword. When a class A exte
 Points to be noted:
 * A class cannot be hoisted like functions ie. the class cannot be called before first declaring it.
 ```js
-    var p = new Polygon();
-    class Polygon{
+var p = new Polygon();
+class Polygon{
 
-    }
+}
 ```
 
   This leads to a reference error
 
 * Built in objects can also be extended.
 ```js
-      Class myDate extends Date(){
-        constructor(){
-        }
-        function myExtension(){
-        }
-      }
+class myDate extends Date(){
+  constructor(){
+  }
+  function myExtension(){
+  }
+}
 ```
 
 # how do we use it?
