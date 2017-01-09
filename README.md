@@ -11,6 +11,51 @@
 # what is the feature:
 
 # how do we use it?
+Syntax wise pretty similar to constructor functions.
+
+Basic Declaration
+```
+class Doggie{
+  constructor(name,age){  // syntax to add properties
+    this.name = name;
+    this.age = age;
+  }
+  bark(){ // syntax to add a method
+    console.log('woof! woof!')
+  }
+  introduce(){
+    console.log('woof! My name is '+ this.name)
+  }
+}
+
+let lassie = new Doggie('Lassie',3)
+lassie.bark()
+```
+Extends Example
+```
+class Pet{
+  constructor(){
+    this.isHouseTrained = true;
+  }
+}
+
+class Doggie extends Pet{ //syntax to setup inheritance chain
+  constructor(name,age){
+    this.name = name;
+    this.age = age;
+  }
+  bark(){
+    //some logic
+    console.log('woof! woof!')
+  }
+  introduce(){
+    console.log('woof! My name is '+ this.name)
+  }
+}
+
+var lassie = new Doggie('Lassie',3)
+console.log(lassie.isHouseTrained) // true
+```
 
 # what problem does it solve?
 
