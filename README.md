@@ -20,7 +20,7 @@ The inheritance is made simpler using the 'extends' keyword. When a class A exte
 
 Points to be noted:
 * A class cannot be hoisted like functions ie. the class cannot be called before first declaring it.
-```
+```js
     var p = new Polygon();
     class Polygon{
 
@@ -30,7 +30,7 @@ Points to be noted:
   This leads to a reference error
 
 * Built in objects can also be extended.
-```
+```js
       Class myDate extends Date(){
         constructor(){
         }
@@ -43,7 +43,7 @@ Points to be noted:
 Syntax wise pretty similar to constructor functions.
 
 Basic Declaration
-```
+```js
 class Doggie{
   constructor(name,age){  // syntax to add properties
     this.name = name;
@@ -61,7 +61,7 @@ let lassie = new Doggie('Lassie',3)
 lassie.bark()
 ```
 Extends Example
-```
+```js
 class Pet{
   constructor(){
     this.isHouseTrained = true;
@@ -99,7 +99,7 @@ outside of javascript, classes and OOP are pretty much defined in a standard way
 thus, the introduction of the class syntax allows these different programmers pick up javascript quickly and write more efficiently w/o the need to learn a language thoroughly(which is frowned upon :( ).
 
 an example of this would be this snippet of python code:
-```
+```python
 #An example of a class written in Python
 #Python demands 4 spaces for indents (what a pain in the ass)
 class Shape:
@@ -120,7 +120,7 @@ class Shape:
 
 looking at the es6 class code at the bottom; one can find similarities of the code with the class code written in python.
 
-```
+```js
 //this is ES6 code (i have not tested whether it works or not..)
 class Shape {
   constructor(x,y) {
@@ -137,7 +137,7 @@ class Shape {
 ```
 
 lastly let's look at an example of traditional prototypical style of writing the shape class
-```
+```js
 //this is ES5 code (might be wrong i'm not an expert in OOP)
 function Shape(x,y){
   this.x = x;
@@ -154,7 +154,7 @@ function Shape(x,y){
 This is the code written in es5 syntax.
 examples taken from : https://medium.freecodecamp.com/learn-es6-the-dope-way-part-v-classes-browser-compatibility-transpiling-es6-code-47f62267661#.7x3fkox7e
 
-```
+```js
 function Bunny(name, age, favoriteFood) {
   this.name = name;
   this.age = age;
@@ -172,7 +172,7 @@ newBunny.eatFavFood();
 
 This is the code that is refactored into es6 syntax.
 
-```
+```js
 class Bunny {
   constructor(name, age, favoriteFood){
     this.name = name;
