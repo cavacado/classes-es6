@@ -17,7 +17,7 @@ Classes are an inherent part of most other programming languages. This feature a
 The inheritance is made simpler using the 'extends' keyword. When a class A extends class B, class A is the child of class B. Using the 'super' keyword, it is possible to inherit the methods defined in the parent class.
 
 Points to be noted:
-1. A class cannot be hoisted like functions ie. the class cannot be called before first declaring it.
+* A class cannot be hoisted like functions ie. the class cannot be called before first declaring it.
 ```
     var p = new Polygon();
     class Polygon{
@@ -27,7 +27,7 @@ Points to be noted:
 
   This leads to a reference error
 
-2. Built in objects can also be extended.
+* Built in objects can also be extended.
 ```
       Class myDate extends Date(){
         constructor(){
